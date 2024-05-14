@@ -11,6 +11,10 @@ public class User {
     private Date createdAt;
     private Date updatedAt;
     private Date deteledAt;
+    
+    public User(){
+        
+    }
 
     public User(int id, String name, String lastName, String email, String password, Date createdAt, Date updatedAt, Date deteledAt) {
         this.id = id;
